@@ -102,7 +102,7 @@ class disassembler():
         '''
 
         # Default riscv-opcodes directory
-        opcodes_dir = os.path.join(os.path.dirname(__file__),"riscv_opcodes/")
+        opcodes_dir = os.path.join(os.path.dirname(__file__),"riscv_opcodes/extensions/")
 
         # file_names contains all files to be parsed in the riscv-opcodes directory
         file_names = glob.glob(f'{opcodes_dir}/rv{file_filter}')
